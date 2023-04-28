@@ -61,7 +61,7 @@
     font-weight: 900;
 }
 
-img {
+.hero-img {
     max-width: 40vw;
 }
 
@@ -74,4 +74,41 @@ img {
     border: none;
     border-radius: 7px;
     padding: 5px 10px;
+}
+
+/* Info */
+.info {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0 100px 0;
+    gap: 30px;
+}
+
+.info-top {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+}
+
+.info-bottom {
+    display: flex;
+    gap: 30px;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 10vw;
+    gap: 10px;
+}
+
+.info-text {
+    text-align: center;
+}
+
+.info-img {
+    max-width: 150px;
 }
