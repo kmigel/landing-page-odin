@@ -13,6 +13,9 @@
 .dark {
     background-color: #1F2937;
 }
+.light {
+    background-color: #E5E7EB;
+}
 
 /* Header */
 .nav {
@@ -111,4 +114,24 @@
 
 .info-img {
     max-width: 150px;
+}
+
+/* Quote */
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0;
+    max-width: 50vw;
+}
+
+.quote-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.quote-author {
+    font-weight: 500;
+    align-self: flex-end;
 }
