@@ -166,3 +166,14 @@
     border-radius: 10px;
     border: 2px #F9FAF8 solid;
 }
+
+/* Footer */
+footer {
+    padding: 20px;
+}
+
+.footer-text {
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: 300;
+}
