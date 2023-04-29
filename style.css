@@ -135,3 +135,34 @@
     font-weight: 500;
     align-self: flex-end;
 }
+
+/* Sign up */
+.sign {
+    min-height: 200px;
+    background-color: #3882F6;
+    padding: 30px;
+    color: #F9FAF8;
+    min-width: 1000px;
+    margin: 100px 0;
+    gap: 100px;
+    border-radius: 10px;
+}
+
+.sign-title {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.sign-text {
+    font-weight: 300;
+}
+
+.sign-btn {
+    background-color: transparent;
+    color: #F9FAF8;
+    font-size: 20px;
+    padding: 10px 25px;
+    font-weight: 500;
+    border-radius: 10px;
+    border: 2px #F9FAF8 solid;
+}
